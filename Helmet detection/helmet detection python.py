@@ -1,6 +1,6 @@
 from roboflow import Roboflow
 
-rf = Roboflow(api_key="cfA6ghDzYXzeJKKNqQGp")
+rf = Roboflow(api_key="add your api key from roboflow website")
 project = rf.workspace().project("helmet-detecetion")
 model = project.version(1).model
 
